@@ -1,0 +1,160 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background-image: url("../images/pattern-background-desktop.svg");
+  background-repeat: no-repeat;
+  background-color: #e0e8ff;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-size: 100%;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  font-family: "Red Hat Display", sans-serif;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  color: #1f2f56;
+}
+
+.card {
+  border-radius: 1rem;
+  background-color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 7.5rem 0;
+  max-width: 450px;
+  overflow: hidden;
+}
+
+.card-header {
+  border-top-left-radius: 1rem;
+  border-top-left-radius: 1rem;
+  overflow: hidden;
+}
+
+.card-body {
+  text-align: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 0 3rem;
+  overflow: hidden;
+  margin-bottom: 2rem;
+}
+
+.card-body h1 {
+  padding: 2rem 0 1rem;
+  font-weight: 900;
+  font-size: 1.7rem;
+}
+
+.card-body p {
+  color: #7280a7;
+}
+
+.card-plan {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  padding: 1rem 1rem;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  text-align: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #f5f7ff;
+  width: 20rem;
+  border-radius: 0.5rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+.card-plan-price {
+  padding: 0 4rem 0 1rem;
+}
+
+.card-plan-price h4 {
+  font-weight: 900;
+  padding-bottom: 3px;
+}
+
+.card-plan-price p {
+  font-weight: 500;
+  color: #7280a7;
+  font-size: 17px;
+  padding-bottom: 5px;
+}
+
+.card-plan a {
+  font-weight: 900;
+  font-size: 14px;
+  color: #3829e0;
+}
+
+.card-plan a:active {
+  color: rgba(56, 41, 224, 0.8);
+  text-decoration: none;
+}
+
+.card-btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding-bottom: 2rem;
+}
+
+.card-btn-1 {
+  background-color: #3829e0;
+  color: white;
+  width: 20rem;
+  height: 3rem;
+  margin: 1rem 0;
+  border: none;
+  border-radius: 0.5rem;
+  font-weight: 700;
+  margin-bottom: 2rem;
+  -webkit-box-shadow: 0 0.7rem 3rem #7280a7;
+          box-shadow: 0 0.7rem 3rem #7280a7;
+}
+
+.card-btn-1:active {
+  background-color: rgba(56, 41, 224, 0.8);
+}
+
+.card-btn a {
+  text-decoration: none;
+  font-weight: 900;
+  font-size: 14px;
+  color: #7280a7;
+}
+
+.card-btn a:active {
+  color: #1f2f56;
+}
+/*# sourceMappingURL=main.css.map */

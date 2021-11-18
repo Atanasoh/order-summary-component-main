@@ -1,0 +1,126 @@
+@import "_variabiles";
+@import "_config";
+body {
+  background-image: url("../images/pattern-background-desktop.svg");
+  background-repeat: no-repeat;
+  background-color: $primary-pale;
+  //   background-image: inherit;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  //   min-width: 100vh;
+  //   min-height: 100vh;
+  background-size: 100%;
+  display: flex;
+  flex-direction: column;
+  //   margin: 8rem 0;
+  font-family: "Red Hat Display", sans-serif;
+  box-sizing: border-box;
+  color: $dark-blue;
+}
+.card {
+  border-radius: 1rem;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  margin: 7.5rem 0;
+  //   position: absolute;
+  max-width: 450px;
+  overflow: hidden;
+
+  &-header {
+    border-top-left-radius: 1rem;
+    border-top-left-radius: 1rem;
+    overflow: hidden;
+  }
+  &-body {
+    text-align: center;
+    justify-content: center;
+    padding: 0 3rem;
+    overflow: hidden;
+    margin-bottom: 2rem;
+
+    h1 {
+      padding: 2rem 0 1rem;
+      font-weight: 900;
+      font-size: 1.7rem;
+    }
+    p {
+      color: $blue-desaturated;
+    }
+  }
+  &-plan {
+    display: inline-flex;
+    // flex-direction: row;
+    padding: 1rem 1rem;
+    justify-content: space-around;
+    text-align: center;
+    align-items: center;
+    background-color: $dark-pale;
+    width: 20rem;
+    border-radius: 0.5rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+
+    // position: relative;
+
+    // text-align: center;
+    &-price {
+      padding: 0 4rem 0 1rem;
+
+      h4 {
+        font-weight: 900;
+        padding-bottom: 3px;
+      }
+      p {
+        font-weight: 500;
+        color: $blue-desaturated;
+        font-size: 17px;
+        padding-bottom: 5px;
+      }
+    }
+    a {
+      font-weight: 900;
+      font-size: 14px;
+      color: $primary-bright;
+    }
+    a:active {
+      color: rgba($primary-bright, 0.8);
+      text-decoration: none;
+    }
+  }
+  &-btn {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 2rem;
+    &-1 {
+      background-color: $primary-bright;
+      color: white;
+      width: 20rem;
+      height: 3rem;
+      margin: 1rem 0;
+
+      border: none;
+      border-radius: 0.5rem;
+      font-weight: 700;
+      margin-bottom: 2rem;
+      box-shadow: 0 0.7rem 3rem $blue-desaturated;
+
+      //   box-shadow: 5px 10px 8px #888888;
+    }
+    &-1:active {
+      background-color: rgba($primary-bright, 0.8);
+    }
+    a {
+      text-decoration: none;
+      font-weight: 900;
+      font-size: 14px;
+      color: $blue-desaturated;
+    }
+    a:active {
+      color: $dark-blue;
+    }
+  }
+}
